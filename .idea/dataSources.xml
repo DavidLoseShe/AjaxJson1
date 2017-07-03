@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - AjaxLogin@localhost" uuid="5473593a-ff50-4a90-83bb-2bacf29d7226">
+    <data-source source="LOCAL" name="MySQL - ajaxlogin@localhost" uuid="2c9080bd-5404-4e2c-98ba-8a97023bea04">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/AjaxLogin</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/ajaxlogin</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

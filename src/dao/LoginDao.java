@@ -1,5 +1,6 @@
 package dao;
 
+import entity.Activity;
 import entity.Admin;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
@@ -33,5 +34,13 @@ public class LoginDao {
             return admin1;
         }
         return  null;
+    }
+    public List<Activity> activityTable(){
+        System.out.println("77777777777777777777777777");
+        String hql ="From Activity";
+        Session session = Main.getSession();
+        Query query = session.createQuery(hql);
+        List<Activity> activities =query.list();
+        return  activities;
     }
 }

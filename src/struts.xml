@@ -10,7 +10,7 @@
     <package name="struts" extends="json-default" namespace="/">
 
         <action name="Login*" class="action.LoginAction" method="{1}">
-            <result name="1" type="json"></result>
+            <result  name="1" type="json"></result>
         </action>
 
     </package>

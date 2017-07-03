@@ -1,0 +1,18 @@
+body{
+    float: left;
+}
+#content{
+
+    position:relative;
+    left: 550px;
+}
+#table_Bootstrap{
+
+    margin-left: 430px;
+    width: 600px;
+    height: 400px;
+}
+#button_table{
+    margin-left: 550px;
+    width: 300px;
+}

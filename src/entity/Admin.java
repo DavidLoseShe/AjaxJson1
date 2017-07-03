@@ -3,7 +3,7 @@ package entity;
 import javax.persistence.*;
 
 /**
- * Created by d on 2017/6/30.
+ * Created by d on 2017/7/2.
  */
 @Entity
 @Table(name = "admininformation", schema = "ajaxlogin", catalog = "")
@@ -13,7 +13,7 @@ public class Admin {
     private Integer adminAge;
 
     @Id
-    @Column(name = "adminID")
+    @Column(name = "adminID", nullable = false, length = 10)
     public String getAdminId() {
         return adminId;
     }
@@ -23,7 +23,7 @@ public class Admin {
     }
 
     @Basic
-    @Column(name = "adminPassword")
+    @Column(name = "adminPassword", nullable = true, length = 16)
     public String getAdminPassword() {
         return adminPassword;
     }
@@ -33,7 +33,7 @@ public class Admin {
     }
 
     @Basic
-    @Column(name = "adminAge")
+    @Column(name = "adminAge", nullable = true)
     public Integer getAdminAge() {
         return adminAge;
     }
